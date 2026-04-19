@@ -134,9 +134,6 @@ export default function ShopifyApps() {
           <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed">
             Booking platform for rentals, hotels, and experiences with iCal sync, flexible pricing, and integrations with Airbnb, Booking.com, and VRBO.
           </p>
-          <span className="inline-block mt-3 text-xs font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700">
-            Built for Shopify
-          </span>
         </a>
       </div>
 
