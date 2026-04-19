@@ -90,16 +90,38 @@ export default function ShopifyApps() {
         ))}
       </div>
 
-      <div className="mt-6 pt-4 border-t border-[var(--color-border)]">
-        <p className="text-sm text-[var(--color-text-muted)] mb-2">Websites I built</p>
-        <div className="flex gap-4 text-sm">
-          <a href="https://ufe.ai" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline inline-flex items-center gap-1">
-            ufe.ai <ExternalLink size={12} />
-          </a>
-          <a href="https://helixo.co" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline inline-flex items-center gap-1">
-            helixo.co <ExternalLink size={12} />
-          </a>
-        </div>
+      <h3 className="text-base font-semibold mt-10 mb-4">Websites I Built</h3>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <a
+          href="https://ufe.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group border border-[var(--color-border)] rounded-lg p-5 hover:border-[var(--color-accent)] transition-colors"
+        >
+          <div className="flex items-center gap-2 mb-2">
+            <img src="https://ufe.ai/wp-content/uploads/2024/11/ufeai_logo-1.png" alt="UFE.ai logo" width={24} height={24} className="rounded" />
+            <h4 className="font-medium text-sm group-hover:text-[var(--color-accent)] transition-colors">ufe.ai</h4>
+            <ExternalLink size={12} className="opacity-0 group-hover:opacity-100 transition-opacity text-[var(--color-text-muted)]" />
+          </div>
+          <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+            Product website for UFE — Upsell Funnel Engine. Generates 1,000+ monthly visits and drives app installs from the Shopify App Store.
+          </p>
+        </a>
+        <a
+          href="https://helixo.co"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group border border-[var(--color-border)] rounded-lg p-5 hover:border-[var(--color-accent)] transition-colors"
+        >
+          <div className="flex items-center gap-2 mb-2">
+            <img src="https://helixo.co/wp-content/uploads/2025/01/helixo-logo-blue.svg" alt="Helixo logo" width={24} height={24} className="rounded" />
+            <h4 className="font-medium text-sm group-hover:text-[var(--color-accent)] transition-colors">helixo.co</h4>
+            <ExternalLink size={12} className="opacity-0 group-hover:opacity-100 transition-opacity text-[var(--color-text-muted)]" />
+          </div>
+          <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+            Company website for Helixo Innovations — showcasing their Shopify app suite serving 36,000+ D2C brands globally.
+          </p>
+        </a>
       </div>
     </section>
   )
