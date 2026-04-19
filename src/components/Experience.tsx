@@ -15,7 +15,7 @@ export default function Experience() {
             </h3>
             <span className="text-sm text-[var(--color-text-muted)] mt-0.5 sm:mt-0">Mar 2026 — Present</span>
           </div>
-          <p className="text-sm text-[var(--color-text-muted)] mb-3">Sofia</p>
+          <p className="text-sm text-[var(--color-text-muted)] mb-3">Sofia, Sofia City, Bulgaria</p>
           <p className="text-[var(--color-text-secondary)] leading-relaxed">
             Building impactful digital products at a company that consolidates advertising technology,
             brands, and consumer businesses globally. Applying full-stack development expertise and
