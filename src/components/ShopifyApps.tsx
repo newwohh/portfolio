@@ -29,6 +29,15 @@ const apps = [
     badge: 'Built for Shopify',
   },
   {
+    name: 'Dinosell: Post Purchase Upsell',
+    description: 'Boost AOV with post-purchase upsells, drag-and-drop thank you page builder, and one-click checkout upsells.',
+    rating: 4.5,
+    reviews: 12,
+    icon: 'https://cdn.shopify.com/app-store/listing_images/eff91c293f78584414290154ecb51120/icon/CIH-oZGrlPACEAE=.png',
+    url: 'https://apps.shopify.com/dinosell-post-purchase-upsell-widgets',
+    badge: null,
+  },
+  {
     name: 'HUE Free Gifts Upsell',
     description: 'Free gift with purchase and BOGO for product and cart upsells.',
     rating: 4.5,
@@ -44,8 +53,9 @@ export default function ShopifyApps() {
     <section id="shopify-apps" className="py-14">
       <h2 className="text-xl font-semibold mb-2">Shopify Apps</h2>
       <p className="text-[var(--color-text-muted)] text-sm mb-8">
-        Apps I contributed to at Helixo, serving 36,000+ merchants globally
+        Apps I contributed to, serving 36,000+ merchants globally
       </p>
+      <h3 className="text-base font-semibold mb-4">At Helixo</h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {apps.map((app) => (
@@ -88,6 +98,46 @@ export default function ShopifyApps() {
             )}
           </a>
         ))}
+      </div>
+
+      <h3 className="text-base font-semibold mt-10 mb-2">At Ecloto Designs</h3>
+      <p className="text-[var(--color-text-muted)] text-sm mb-4">App I contributed to at Ecloto</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <a
+          href="https://apps.shopify.com/shopbnb"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group border border-[var(--color-border)] rounded-lg p-5 hover:border-[var(--color-accent)] transition-colors"
+        >
+          <div className="flex items-start gap-4 mb-3">
+            <img
+              src="https://cdn.shopify.com/app-store/listing_images/65185eb83d87cabb6b113181e4878679/icon/CI2T8N3Q4oADEAE=.png"
+              alt="ShopSTR icon"
+              width={48}
+              height={48}
+              className="rounded-lg shrink-0"
+            />
+            <div className="min-w-0">
+              <h4 className="font-medium text-sm leading-tight group-hover:text-[var(--color-accent)] transition-colors flex items-center gap-1.5">
+                ShopSTR — Book Everything
+                <ExternalLink size={12} className="opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
+              </h4>
+              <div className="flex items-center gap-2 mt-1">
+                <span className="inline-flex items-center gap-0.5 text-xs text-amber-600">
+                  <Star size={11} fill="currentColor" />
+                  4.9
+                </span>
+                <span className="text-xs text-[var(--color-text-muted)]">9 reviews</span>
+              </div>
+            </div>
+          </div>
+          <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed">
+            Booking platform for rentals, hotels, and experiences with iCal sync, flexible pricing, and integrations with Airbnb, Booking.com, and VRBO.
+          </p>
+          <span className="inline-block mt-3 text-xs font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700">
+            Built for Shopify
+          </span>
+        </a>
       </div>
 
       <h3 className="text-base font-semibold mt-10 mb-4">Websites I Built</h3>
