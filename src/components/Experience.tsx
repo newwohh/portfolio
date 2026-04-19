@@ -58,7 +58,7 @@ export default function Experience() {
           <ul className="space-y-2 text-[var(--color-text-secondary)] leading-relaxed">
             <li className="flex gap-2"><span className="text-[var(--color-text-muted)] select-none">—</span> Optimized Wowcart – Slide Cart Drawer by integrating Shopify App Metafields with Express.js, cutting app load time by ~20%.</li>
             <li className="flex gap-2"><span className="text-[var(--color-text-muted)] select-none">—</span> Migrated draft orders from REST to GraphQL using Express.js, enabling 1M+ draft order requests/month.</li>
-            <li className="flex gap-2"><span className="text-[var(--color-text-muted)] select-none">—</span> Developed premium features &amp; pricing plans with Next.js, adopted by 600+ merchants, driving direct revenue growth.</li>
+            <li className="flex gap-2"><span className="text-[var(--color-text-muted)] select-none">—</span> Developed premium features &amp; pricing plans with Next.js, adopted by 1,500+ merchants, driving direct revenue growth.</li>
             <li className="flex gap-2"><span className="text-[var(--color-text-muted)] select-none">—</span> Translated Figma UI designs into production with Preact, boosting app ratings from 4.2 to 4.9 on the Shopify App Store.</li>
             <li className="flex gap-2"><span className="text-[var(--color-text-muted)] select-none">—</span> Implemented customer data workflows with MongoDB for targeted merchant campaigns.</li>
             <li className="flex gap-2"><span className="text-[var(--color-text-muted)] select-none">—</span> Resolved 1,000+ merchant support tickets, maintaining 100% positive feedback.</li>
