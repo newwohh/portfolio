@@ -19,7 +19,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-14">
+    <section id="projects" className="py-2">
       <h2 className="text-xl font-semibold mb-2">Open Source &amp; Side Projects</h2>
       <p className="text-[var(--color-text-muted)] text-sm mb-8">
         Actively maintained projects from the past year

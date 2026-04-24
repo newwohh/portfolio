@@ -50,7 +50,7 @@ const apps = [
 
 export default function ShopifyApps() {
   return (
-    <section id="shopify-apps" className="py-14">
+    <section id="shopify-apps" className="py-2">
       <h2 className="text-xl font-semibold mb-2">Shopify Apps</h2>
       <p className="text-[var(--color-text-muted)] text-sm mb-8">
         Apps I contributed to, serving 36,000+ merchants globally
