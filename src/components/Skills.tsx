@@ -19,7 +19,7 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-14">
+    <section id="skills" className="py-2">
       <h2 className="text-xl font-semibold mb-8">Skills</h2>
       <div className="space-y-5">
         {skillGroups.map((group) => (

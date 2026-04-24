@@ -2,7 +2,7 @@ import BalancedText from './BalancedText'
 
 export default function About() {
   return (
-    <section id="about" className="py-14">
+    <section id="about" className="py-2">
       <h2 className="text-xl font-semibold mb-4">About</h2>
       <div className="space-y-4 text-[var(--color-text-secondary)] leading-relaxed">
         <BalancedText>
