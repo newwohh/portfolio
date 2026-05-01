@@ -39,26 +39,27 @@ function SectionLabel({ num, name, delay = 0 }: { num: string; name: string; del
 
 export default function App() {
   return (
-    <div className="h-screen w-screen overflow-hidden bg-[var(--color-bg)] text-[var(--color-ink)]">
-      <div className="h-full w-full max-w-[1600px] mx-auto flex flex-col px-6 md:px-10 py-4 gap-3 md:gap-4">
+    <div className="min-h-screen w-full lg:h-screen lg:w-screen lg:overflow-hidden bg-[var(--color-bg)] text-[var(--color-ink)]">
+      <div className="lg:h-full w-full max-w-[1600px] mx-auto flex flex-col px-5 sm:px-6 md:px-10 py-5 lg:py-4 gap-6 lg:gap-4">
 
         {/* Top meta strip */}
-        <div className="flex items-center justify-between text-[11px] font-mono uppercase tracking-[0.25em] text-[var(--color-muted)] pb-3 border-b border-[var(--color-line)] rise">
-          <span>Folio №01 — <span className="text-[var(--color-ink)]">Nevin Raju</span></span>
-          <span className="hidden md:inline">Vol. 2026 / Issue 04 / Kollam · IN</span>
-          <span className="flex items-center gap-2">
+        <div className="flex items-center justify-between gap-3 text-[10px] sm:text-[11px] font-mono uppercase tracking-[0.2em] sm:tracking-[0.25em] text-[var(--color-muted)] pb-3 border-b border-[var(--color-line)] rise">
+          <span className="truncate">Folio №01 — <span className="text-[var(--color-ink)]">Nevin Raju</span></span>
+          <span className="hidden lg:inline">Vol. 2026 / Issue 04 / Kollam · IN</span>
+          <span className="flex items-center gap-2 shrink-0">
             <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-accent)] animate-pulse" />
-            Available for work
+            <span className="hidden sm:inline">Available for work</span>
+            <span className="sm:hidden">Available</span>
           </span>
         </div>
 
         {/* Hero */}
-        <div className="grid grid-cols-12 gap-y-8 gap-x-6 md:gap-x-10 items-end">
+        <div className="grid grid-cols-12 gap-y-6 sm:gap-y-8 gap-x-6 md:gap-x-10 items-end">
           <div className="col-span-12 md:col-span-8 rise" style={{ animationDelay: '60ms' }}>
             <div className="font-mono text-[11px] uppercase tracking-[0.25em] text-[var(--color-muted)] mb-4">
               ◆ Software Engineer — Shopify Specialist
             </div>
-            <h1 className="font-display font-light leading-[0.82] tracking-[-0.03em] text-[clamp(3.5rem,9vw,8rem)]">
+            <h1 className="font-display font-light leading-[0.82] tracking-[-0.03em] text-[clamp(3.25rem,16vw,8rem)] md:text-[clamp(4rem,9vw,8rem)]">
               Nevin{' '}
               <span className="italic font-normal text-[var(--color-accent)]" style={{ fontVariationSettings: '"SOFT" 100, "WONK" 1' }}>
                 Raju
@@ -100,9 +101,9 @@ export default function App() {
         </div>
 
         {/* Body — middle row with 3 columns */}
-        <div className="grid grid-cols-12 gap-6 md:gap-10 flex-1 min-h-0">
+        <div className="grid grid-cols-12 gap-y-8 gap-x-6 md:gap-10 lg:flex-1 lg:min-h-0">
           {/* Experience */}
-          <div className="col-span-12 md:col-span-4 flex flex-col min-h-0 rise" style={{ animationDelay: '280ms' }}>
+          <div className="col-span-12 md:col-span-4 flex flex-col lg:min-h-0 rise" style={{ animationDelay: '280ms' }}>
             <SectionLabel num="01" name="Experience" />
             <ul className="mt-3 space-y-1.5">
               {experience.map((e, i) => (
@@ -140,7 +141,7 @@ export default function App() {
           </div>
 
           {/* Shopify Apps */}
-          <div className="col-span-12 md:col-span-5 flex flex-col min-h-0 rise" style={{ animationDelay: '360ms' }}>
+          <div className="col-span-12 md:col-span-5 flex flex-col lg:min-h-0 rise" style={{ animationDelay: '360ms' }}>
             <SectionLabel num="02" name="Shopify Apps — Contributed to" />
             <div className="mt-3 grid grid-cols-2 gap-x-4 gap-y-1.5 content-start">
               {apps.map((a, i) => (
@@ -188,7 +189,7 @@ export default function App() {
           </div>
 
           {/* Skills */}
-          <div className="col-span-12 md:col-span-3 flex flex-col min-h-0 rise" style={{ animationDelay: '440ms' }}>
+          <div className="col-span-12 md:col-span-3 flex flex-col lg:min-h-0 rise" style={{ animationDelay: '440ms' }}>
             <SectionLabel num="03" name="Stack" />
             <div className="mt-3 space-y-3">
               {Object.entries(skills).map(([group, items]) => (
@@ -236,7 +237,7 @@ export default function App() {
         </div>
 
         {/* Bottom row */}
-        <div className="grid grid-cols-12 gap-6 md:gap-10 pt-3 border-t border-[var(--color-line)]">
+        <div className="grid grid-cols-12 gap-y-8 gap-x-6 md:gap-10 pt-5 lg:pt-3 border-t border-[var(--color-line)]">
           {/* Open Source */}
           <div className="col-span-12 md:col-span-4 rise" style={{ animationDelay: '520ms' }}>
             <SectionLabel num="04" name="Open Source" />
