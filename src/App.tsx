@@ -39,8 +39,8 @@ function SectionLabel({ num, name, delay = 0 }: { num: string; name: string; del
 
 export default function App() {
   return (
-    <div className="min-h-screen w-full lg:h-screen lg:w-screen lg:overflow-hidden bg-[var(--color-bg)] text-[var(--color-ink)]">
-      <div className="lg:h-full w-full max-w-[1600px] mx-auto flex flex-col px-5 sm:px-6 md:px-10 py-5 lg:py-4 gap-6 lg:gap-4">
+    <div className="editorial-root min-h-screen w-full bg-[var(--color-bg)] text-[var(--color-ink)]">
+      <div className="editorial-shell w-full max-w-[1600px] mx-auto flex flex-col px-5 sm:px-6 md:px-10 py-5 gap-6">
 
         {/* Top meta strip */}
         <div className="flex items-center justify-between gap-3 text-[10px] sm:text-[11px] font-mono uppercase tracking-[0.2em] sm:tracking-[0.25em] text-[var(--color-muted)] pb-3 border-b border-[var(--color-line)] rise">
@@ -101,7 +101,7 @@ export default function App() {
         </div>
 
         {/* Body — middle row with 3 columns */}
-        <div className="grid grid-cols-12 gap-y-8 gap-x-6 md:gap-10 lg:flex-1 lg:min-h-0">
+        <div className="editorial-mid grid grid-cols-12 gap-y-8 gap-x-6 md:gap-10">
           {/* Experience */}
           <div className="col-span-12 md:col-span-4 flex flex-col lg:min-h-0 rise" style={{ animationDelay: '280ms' }}>
             <SectionLabel num="01" name="Experience" />
@@ -237,7 +237,7 @@ export default function App() {
         </div>
 
         {/* Bottom row */}
-        <div className="grid grid-cols-12 gap-y-8 gap-x-6 md:gap-10 pt-5 lg:pt-3 border-t border-[var(--color-line)]">
+        <div className="editorial-bottom grid grid-cols-12 gap-y-8 gap-x-6 md:gap-10 pt-5 border-t border-[var(--color-line)]">
           {/* Open Source */}
           <div className="col-span-12 md:col-span-4 rise" style={{ animationDelay: '520ms' }}>
             <SectionLabel num="04" name="Open Source" />
