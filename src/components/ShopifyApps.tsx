@@ -5,7 +5,7 @@ const apps = [
     name: 'UFE Cross Sell & Upsell Bundle',
     description: 'Boost sales with BOGO, volume discounts and cart upsell offers. Serving 6,000+ merchants with 500M+ monthly requests.',
     rating: 4.8,
-    reviews: 492,
+    reviews: 494,
     icon: 'https://cdn.shopify.com/app-store/listing_images/4ae53327b3afd36c9972e851101392c6/icon/CLKHn7X-wvQCEAE=.png',
     url: 'https://apps.shopify.com/upsell-funnel-engine-upsells',
     badge: 'Built for Shopify',
@@ -14,18 +14,18 @@ const apps = [
     name: 'BUCKS Currency Converter PRO++',
     description: 'Unlimited multi-currency switcher with geolocation detection and AI analytics. #1 ranked in its category.',
     rating: 4.9,
-    reviews: 972,
+    reviews: 1146,
     icon: 'https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/icon/CIbBrK6-4pIDEAE=.png',
-    url: 'https://apps.shopify.com/partners/helixo-co',
+    url: 'https://apps.shopify.com/bucks-currency-converter',
     badge: 'Built for Shopify',
   },
   {
-    name: 'Wowcart — Slide Cart Drawer',
+    name: 'HUE Cart Drawer',
     description: 'Cart drawer with discount code support, cart upsells, and optimized load performance.',
-    rating: 5.0,
-    reviews: 40,
+    rating: 4.9,
+    reviews: 41,
     icon: 'https://cdn.shopify.com/app-store/listing_images/2a82d14ff0908b4b11a67b003ee37313/icon/CK-H2dz2tPsCEAE=.jpeg',
-    url: 'https://apps.shopify.com/partners/helixo-co',
+    url: 'https://apps.shopify.com/hue-cart-drawer-cart-upsell',
     badge: 'Built for Shopify',
   },
   {
@@ -40,10 +40,10 @@ const apps = [
   {
     name: 'HUE Free Gifts Upsell',
     description: 'Free gift with purchase and BOGO for product and cart upsells.',
-    rating: 4.5,
-    reviews: 26,
+    rating: 4.7,
+    reviews: 33,
     icon: 'https://cdn.shopify.com/app-store/listing_images/3e809f875c8c7f4975e920b662d791aa/icon/CPzrxdeCnZMDEAE=.png',
-    url: 'https://apps.shopify.com/partners/helixo-co',
+    url: 'https://apps.shopify.com/free-gift-upsell',
     badge: 'Built for Shopify',
   },
 ]
@@ -125,9 +125,9 @@ export default function ShopifyApps() {
               <div className="flex items-center gap-2 mt-1">
                 <span className="inline-flex items-center gap-0.5 text-xs text-amber-600">
                   <Star size={11} fill="currentColor" />
-                  4.9
+                  3.7
                 </span>
-                <span className="text-xs text-[var(--color-text-muted)]">9 reviews</span>
+                <span className="text-xs text-[var(--color-text-muted)]">11 reviews</span>
               </div>
             </div>
           </div>
