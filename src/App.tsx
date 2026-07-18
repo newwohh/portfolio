@@ -12,8 +12,8 @@ const apps = [
   { name: 'BUCKS Currency PRO++', rating: 4.9, icon: 'https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/icon/CIbBrK6-4pIDEAE=.png', url: 'https://apps.shopify.com/bucks-currency-converter' },
   { name: 'HUE Cart Drawer', rating: 4.9, icon: 'https://cdn.shopify.com/app-store/listing_images/2a82d14ff0908b4b11a67b003ee37313/icon/CK-H2dz2tPsCEAE=.jpeg', url: 'https://apps.shopify.com/hue-cart-drawer-cart-upsell' },
   { name: 'Dinosell Post-Purchase', rating: 4.5, icon: 'https://cdn.shopify.com/app-store/listing_images/eff91c293f78584414290154ecb51120/icon/CIH-oZGrlPACEAE=.png', url: 'https://apps.shopify.com/dinosell-post-purchase-upsell-widgets' },
-  { name: 'HUE Free Gifts', rating: 4.7, icon: 'https://cdn.shopify.com/app-store/listing_images/3e809f875c8c7f4975e920b662d791aa/icon/CPzrxdeCnZMDEAE=.png', url: 'https://apps.shopify.com/free-gift-upsell' },
-  { name: 'ShopSTR Bookings', rating: 3.7, icon: 'https://cdn.shopify.com/app-store/listing_images/65185eb83d87cabb6b113181e4878679/icon/CI2T8N3Q4oADEAE=.png', url: 'https://apps.shopify.com/shopbnb' },
+  { name: 'HUE Free Gifts', rating: 4.6, icon: 'https://cdn.shopify.com/app-store/listing_images/3e809f875c8c7f4975e920b662d791aa/icon/CPzrxdeCnZMDEAE=.png', url: 'https://apps.shopify.com/free-gift-upsell' },
+  { name: 'ShopSTR Bookings', rating: 3.4, icon: 'https://cdn.shopify.com/app-store/listing_images/65185eb83d87cabb6b113181e4878679/icon/CI2T8N3Q4oADEAE=.png', url: 'https://apps.shopify.com/shopbnb' },
 ]
 
 const skills = {
